@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <h1 id="title">Satisfaction Survey</h1>
+<main>
+  <div class="container">
+    <div class="section1">
+      <form id="survey-form" action="">
+        <p id="discription">How often do you typically visit our site?</p>
+
+        <select id="dropdown">
+  <option value="once a year">Once a year</option>
+  <option value="Daily">Daily</option>
+  <option value="Weekly">Weekly</option>
+  <option value="Once a month">Once a month</option>
+  <option value="Every 2-3 months">Every 2-3 months</option>
+  <option value="2-3 times a year less often">2-3 times a year less often</option>
+  <option value="Not at all">Not at all</option>
+        </select></div><br>
+
+    <div class="section-service">
+      <p>Which of the following service do you use?</p>
+      <label for="serv1">service1</label><input id="serv1" type="checkbox" name="service">
+      <label for="serv2">service2</label><input id="serv2" type="checkbox" name="service">
+      <label for="serv3">service3</label><input id="serv3" type="checkbox" name="service">
+      <label for="serv4">service4</label><input id="serv4" type="checkbox" name="service">
+    </div>
+
+    <div id="section2" style="overflow-x:auto;"><br><br>
+      <table>
+        <tbody>
+          <tr class="row">
+            <caption>
+              <p>How would you rate are service with our service in term of...</p>
+            </caption>
+            <td></td>
+            <td>Exellent</td>
+            <td>Very Good</td>
+            <td>Good</td>
+            <td>Fair</td>
+            <td>Poor</td>
+          </tr>
+          <tr class="row1">
+            <td>Your overall expirience</td>
+            <td><input type="radio" name="col"></td>
+            <td><input type="radio" name="col"></td>
+            <td><input type="radio" name=col></td>
+            <td><input type="radio" name="col"></td>
+            <td><input type="radio" name="col"></td>
+          </tr>
+          <tr class="row2">
+            <td>The value of our service</td>
+            <td><input type="radio" name="col1"></td>
+            <td><input type="radio" name="col1"></td>
+            <td><input type="radio" name="col1"></td>
+            <td><input type="radio" name="col1"></td>
+            <td><input type="radio" name="col1"></td>
+          </tr>
+          <tr class="row3">
+            <td>Promptness of our service</td>
+            <td><input type="radio" name="col2"></td>
+            <td><input type="radio" name="col2"></td>
+            <td><input type="radio" name="col2"></td>
+            <td><input type="radio" name="col2"></td>
+            <td><input type="radio" name="col2"></td>
+          </tr>
+          <tr class="row4">
+            <td>The courtesy of our staff</td>
+            <td><input type="radio" name="col3"></td>
+            <td><input type="radio" name="col3"></td>
+            <td><input type="radio" name="col3">
+              <td><input id="" type="radio" name="col3"></td>
+              <td><input type="radio" name="col3"></td>
+          </tr>
+        </tbody>
+      </table><br><br><br>
+    </div>
+    <div class="section-radio">
+      <p> Overall, I am satified with the way the company performed on this project.</p>
+      <label for="strong"><input id="strong" type="radio" name="agreeordisagree" value="strong">Strongly Disagree</label>
+      <br><label for="Somewhat"><input id="Somewhat" type="radio" name="agreeordisagree" value="Somewhat">Somewhat Disagree</label>
+      <br><label for="neither"><input id="neither" type="radio" name="agreeordisagree" value="neither">Neither Agree nor Disagree</label>
+      <br><label for="agree"><input id="agree" type="radio" name="agreeordisagree" value="agree">Somewhat Agree</label>
+      <br><label for="strongA"><input id="strongA" type="radio" name="agreeordisagree" value="strongA">Strongly Agree</label><br><br>
+    </div>
+
+    <div id="section-num">
+      <label for="number-label"><p>How likely would you be to recomemded the company to your friend or family? <br>(0) not at all likely, (10) extremely</label> likely.
+      </p>
+
+      <label for="number-label"></label>
+      <input id="number" type="number" min="0" max="10" id="numder-label" placeholder="10" required>
+    </div>
+
+    <div class="comment"><br><br><br>
+      <p>Any comments or suggestion:</p>
+      <textarea id="comments" rows="3" cols="30" placeholder="QuincyLarson" required></textarea></div><br><br>
+
+    <div class="section4"> <label for="name-label">Name:</label>
+      <input type="text" id="name-label" name="name" placeholder="Enter name" required><br><br>
+      <label for="Email-label">Email:</label>
+      <input type="text" id="email-label" name="email" placeholder="Enter email" required><br><br>
+      <button id="submit" type="submit">Quincy</button>
+
+    </div>
+  </div>
+  </form>
+</main>
+  
+  
+
+</body>
+
+</html>

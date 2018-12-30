@@ -1,0 +1,54 @@
+body {
+  background: #c4be64;
+  font-family: Times, Ariel, Sans-serif;
+}
+p {
+  font-weight: 550;
+}
+.container {
+  background: #efefef;
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  padding: 50px;
+  border-radius: 1%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.section2 table {
+  caption-side: top;
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  width: 100%;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+table{
+  background: #e3e5e5;
+}
+.section-radio {
+  margin-left: 15%;
+  text-align: left;
+}
+.section-comments {
+  caption-side: bottom;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+}
+#submit {
+  background-color: #9ba00b;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  padding: 10px 24px;
+  border-radius: 5px;
+  border: 0px;
+}
